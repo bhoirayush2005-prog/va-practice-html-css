@@ -117,3 +117,68 @@ body {
   margin: 0 auto;
 }
 
+/* feature cards section */
+.cards-area {
+  background-color: #f6f4fc;
+  padding: 50px 24px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* show three cards in one row */
+  gap: 24px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 26px 20px;
+  text-align: center;
+  border: 1px solid #eceaf5;
+}
+
+.card img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain; /* fit icon without cutting */
+  margin-bottom: 12px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #5c5c70;
+}
+
+/* tablet view */
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr; /* show hero in one column */
+    text-align: center;
+  }
+
+  .hero p {
+    margin: 0 auto 24px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr; /* show cards vertically */
+  }
+}
+
+/* mobile view */
+@media (max-width: 650px) {
+  .nav-links {
+    display: none; /* hide menu on small mobile screens */
+  }
+}
