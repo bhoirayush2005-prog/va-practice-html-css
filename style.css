@@ -75,3 +75,45 @@ body {
   display: inline-block;
 }
 
+/* main hero section */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* divide hero into two parts */
+  align-items: center;
+  gap: 36px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.hero h1 span {
+  color: #5b21d6; /* highlight "Job Ready" */
+}
+
+.hero p {
+  color: #5c5c70;
+  font-size: 17px;
+  margin-bottom: 24px;
+  max-width: 440px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap; /* move button to next line on small width */
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
