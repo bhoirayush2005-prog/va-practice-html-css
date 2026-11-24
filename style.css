@@ -10,3 +10,46 @@ body {
   background-color: #ffffff; /* set white background */
 }
 
+/* top navigation section */
+.navbar {
+  display: flex; /* place navbar items in a row */
+  justify-content: space-between; /* divide items to left and right */
+  align-items: center; /* align items vertically */
+  max-width: 1140px; /* limit navbar width */
+  margin: 0 auto; /* center navbar */
+  padding: 20px 24px; /* add inside spacing */
+}
+
+.brand {
+  display: flex; /* keep logo and name together */
+  align-items: center;
+  gap: 10px; /* space between logo and name */
+  text-decoration: none; /* remove link underline */
+  color: #111118;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.brand img {
+  width: 32px;
+  height: auto; /* keep image ratio */
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px; /* space between menu links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3a3a4a;
+  font-size: 15px;
+  padding-bottom: 6px;
+}
+
+.nav-links a.active {
+  color: #5b21d6;
+  font-weight: bold;
+  border-bottom: 3px solid #5b21d6; /* underline active page */
+}
+
