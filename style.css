@@ -53,3 +53,25 @@ body {
   border-bottom: 3px solid #5b21d6; /* underline active page */
 }
 
+/* common button styles */
+.btn-filled {
+  background-color: #5b21d6;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-outline {
+  background-color: #ffffff;
+  color: #5b21d6;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1.5px solid #c5b4f5;
+  font-weight: bold;
+  display: inline-block;
+}
+
